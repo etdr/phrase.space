@@ -1,0 +1,36 @@
+{
+  "name": "phrase.space",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^4.0.5",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@benrbray/remark-cite": "^1.1.0",
+    "date-fns": "^2.30.0",
+    "open-props": "^1.5.11",
+    "postcss-jit-props": "^1.0.13",
+    "postcss-nesting": "^12.0.1",
+    "rehype-shiki": "^0.0.9",
+    "rehype-stringify": "^9.0.3",
+    "remark-frontmatter": "^4.0.1",
+    "remark-parse": "^10.0.2",
+    "remark-rehype": "^10.1.0",
+    "remark-smartypants": "^2.0.0",
+    "unified": "^10.1.2",
+    "vite-imagetools": "^5.0.7",
+    "yaml": "^2.3.1"
+  }
+}
