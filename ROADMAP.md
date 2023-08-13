@@ -12,10 +12,6 @@
 do I really need the emoji plugin?
 
 
-### PostCSS
+### ~~PostCSS~~
 
-- "postcss-inline-media": "^1.4.0",
-- "postcss-load-config": "^3.1.4",
-- "postcss-nested": "^5.0.6",
-- "postcss-simple-vars": "^6.0.3",
-
+Switching to lightningcss now that Vite supports it (and that I found out about it)

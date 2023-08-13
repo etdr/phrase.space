@@ -6,5 +6,14 @@ export default defineConfig({
 	plugins: [
 		imagetools(),
 		sveltekit()
-	]
+	],
+	css: {
+		transformer: 'lightningcss',
+		lightningcss: {
+			drafts: {
+				nesting: true,
+				customMedia: true
+			}
+		}
+	}
 })

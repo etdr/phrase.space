@@ -37,9 +37,4 @@ export async function loadPost (filename) {
 }
 
 
-const rs = await loadPost('./TESTPOST.md')
-
-export default {
-  loadPost,
-  rs
-}
+export default loadPost
